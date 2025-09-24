@@ -21,4 +21,22 @@ let num8=50;
 let resultado4=(num1/num2);
 console.log(resultado4);
 
-alert("Hola " + nombre);
+let edad=prompt("Ingrese su eda")
+
+if(edad>=18){
+    console.log("Eres un niño grande")
+}else{
+    console.log("Eres un niño")
+};
+
+
+let contra=prompt("Ingrese la contraseña");
+
+if(contra===4){
+    console.log("Bienvenido a proteccion de testigos")
+}else{
+    console.log("Quien eres tu?")
+};
+
+
+alert("Hola " + nombre); 
