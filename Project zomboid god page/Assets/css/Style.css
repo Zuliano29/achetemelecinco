@@ -1,0 +1,16 @@
+
+  /* Oculta los marcadores predeterminados de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+  /* Hace que los elementos de la lista se muestren en línea */
+li {
+    display: inline-block; /* O puedes usar display: inline; */
+    margin-right: 10px; /* Añade un pequeño espacio entre los elementos */
+}
+
+.centrar-mapa {
+  text-align: center;
+}
